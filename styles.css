@@ -73,7 +73,7 @@ nav a {
 nav a:hover { color: var(--blue); }
 
 .hero {
-  padding: 54px 0 42px;
+  padding: 36px 0 12px;
   background:
     radial-gradient(circle at 50% 0%, rgba(91,147,214,.08), transparent 42%),
     var(--white);
@@ -91,7 +91,7 @@ nav a:hover { color: var(--blue); }
 }
 
 .section {
-  padding: 82px 0;
+  padding: 45px 0 82px;
 }
 
 .eyebrow {
