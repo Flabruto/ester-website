@@ -1,0 +1,1061 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Statute | European Society of Teleradiology – ESTeR</title>
+
+  <meta name="description" content="Statute of the European Society of Teleradiology – ESTeR.">
+  <meta name="robots" content="index, follow">
+
+  <style>
+    :root {
+      --navy: #0d2742;
+      --blue: #1c5f8f;
+      --light-blue: #edf5f9;
+      --text: #2a3440;
+      --muted: #687582;
+      --border: #dce5ea;
+      --white: #ffffff;
+      --background: #f7f9fb;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--text);
+      background: var(--background);
+      line-height: 1.7;
+    }
+
+    /* HEADER */
+
+    header {
+      background: var(--white);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .header-inner {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 18px 28px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 30px;
+    }
+
+    .brand {
+      text-decoration: none;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .brand-name {
+      font-size: 27px;
+      font-weight: 700;
+      color: var(--navy);
+      letter-spacing: 0.3px;
+    }
+
+    .brand-subtitle {
+      color: var(--muted);
+      font-size: 12px;
+      letter-spacing: 1.1px;
+      text-transform: uppercase;
+    }
+
+    nav {
+      display: flex;
+      gap: 25px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: var(--navy);
+      text-decoration: none;
+      font-size: 15px;
+      font-weight: 600;
+    }
+
+    nav a:hover {
+      color: var(--blue);
+    }
+
+    nav .active {
+      color: var(--blue);
+    }
+
+    /* HERO */
+
+    .hero {
+      background: var(--navy);
+      color: var(--white);
+      padding: 68px 28px 60px;
+    }
+
+    .hero-inner {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .eyebrow {
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 12px;
+      opacity: 0.7;
+      margin-bottom: 12px;
+    }
+
+    .hero h1 {
+      margin: 0 0 12px 0;
+      font-size: 46px;
+      line-height: 1.12;
+      font-weight: 600;
+    }
+
+    .hero p {
+      margin: 0;
+      max-width: 800px;
+      font-size: 18px;
+      line-height: 1.6;
+      color: #dbe6ef;
+    }
+
+    /* PAGE */
+
+    main {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 55px 28px 80px;
+    }
+
+    .intro {
+      background: var(--light-blue);
+      border-left: 4px solid var(--blue);
+      padding: 22px 25px;
+      margin-bottom: 45px;
+      font-size: 15px;
+    }
+
+    .statute {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 50px 58px;
+      box-shadow: 0 3px 14px rgba(0,0,0,0.035);
+    }
+
+    .statute-title {
+      text-align: center;
+      margin-bottom: 48px;
+      padding-bottom: 30px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .statute-title h2 {
+      color: var(--navy);
+      font-size: 28px;
+      margin: 0 0 10px 0;
+    }
+
+    .statute-title p {
+      color: var(--muted);
+      margin: 0;
+      font-size: 14px;
+    }
+
+    article {
+      margin-bottom: 42px;
+      scroll-margin-top: 110px;
+    }
+
+    article:last-child {
+      margin-bottom: 0;
+    }
+
+    article h2 {
+      color: var(--navy);
+      font-size: 21px;
+      line-height: 1.35;
+      margin: 0 0 16px 0;
+      padding-bottom: 9px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    article p {
+      margin: 0 0 14px 0;
+    }
+
+    article ul {
+      margin: 10px 0 18px 25px;
+      padding: 0;
+    }
+
+    article li {
+      margin-bottom: 8px;
+    }
+
+    /* BACK LINK */
+
+    .back-link {
+      margin-top: 40px;
+      text-align: center;
+    }
+
+    .back-link a {
+      display: inline-block;
+      text-decoration: none;
+      color: var(--blue);
+      font-weight: 600;
+      padding: 10px 16px;
+    }
+
+    .back-link a:hover {
+      text-decoration: underline;
+    }
+
+    /* FOOTER */
+
+    footer {
+      background: var(--navy);
+      color: #d4dfe7;
+      padding: 34px 28px;
+      text-align: center;
+      font-size: 14px;
+    }
+
+    footer a {
+      color: white;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    /* MOBILE */
+
+    @media (max-width: 760px) {
+
+      .header-inner {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 16px 20px;
+      }
+
+      nav {
+        gap: 16px;
+      }
+
+      .brand-name {
+        font-size: 23px;
+      }
+
+      .hero {
+        padding: 45px 22px;
+      }
+
+      .hero h1 {
+        font-size: 35px;
+      }
+
+      main {
+        padding: 35px 16px 60px;
+      }
+
+      .statute {
+        padding: 32px 22px;
+      }
+
+      article h2 {
+        font-size: 19px;
+      }
+    }
+
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="header-inner">
+
+    <a href="index.html" class="brand">
+      <span class="brand-name">ESTeR</span>
+      <span class="brand-subtitle">European Society of Teleradiology</span>
+    </a>
+
+    <nav>
+      <a href="index.html#about">About</a>
+      <a href="index.html#mission">Mission</a>
+      <a href="statute.html" class="active">Statute</a>
+    </nav>
+
+  </div>
+</header>
+
+
+<section class="hero">
+  <div class="hero-inner">
+    <div class="eyebrow">European Society of Teleradiology</div>
+    <h1>Statute</h1>
+    <p>
+      Statute of the European Society of Teleradiology – ESTeR,
+      a non-profit association established in Italy and intended
+      for registration in the National Single Register of the
+      Third Sector (RUNTS).
+    </p>
+  </div>
+</section>
+
+
+<main>
+
+  <div class="intro">
+    This English text is a translation of the official Italian Statute
+    of the European Society of Teleradiology – ESTeR. The Italian
+    version constitutes the original governing document of the Association.
+  </div>
+
+
+  <section class="statute">
+
+    <div class="statute-title">
+      <h2>EUROPEAN SOCIETY OF TELERADIOLOGY – ESTeR</h2>
+      <p>
+        Unrecognized association intended for registration in the
+        National Single Register of the Third Sector (RUNTS) –
+        section “Other Third Sector Entities”
+      </p>
+    </div>
+
+
+    <article id="article-1">
+      <h2>Article 1 – Name</h2>
+
+      <p>
+        An unrecognized association is hereby established under the name
+        “European Society of Teleradiology – ESTeR” (hereinafter the “Association”).
+      </p>
+
+      <p>
+        The Association intends to acquire the status of a Third Sector Entity
+        through registration in the National Single Register of the Third Sector
+        (RUNTS). From the date of registration, the wording “Third Sector Entity”
+        or the acronym “ETS” shall be used in official documents, correspondence
+        and communications to the public, in accordance with applicable legislation.
+      </p>
+    </article>
+
+
+    <article id="article-2">
+      <h2>Article 2 – Registered Office and Scope of Activities</h2>
+
+      <p>
+        The Association has its registered office in the Municipality of Messina,
+        Italy.
+      </p>
+
+      <p>
+        It operates in Italy, throughout Europe and internationally. It may
+        establish operational offices, representative offices, sections or other
+        organizational structures in Italy and abroad, in compliance with applicable
+        legislation.
+      </p>
+
+      <p>
+        The transfer of the registered office within the same Municipality shall
+        not require an amendment to the Statute.
+      </p>
+    </article>
+
+
+    <article id="article-3">
+      <h2>Article 3 – Duration</h2>
+
+      <p>
+        The duration of the Association is unlimited.
+      </p>
+    </article>
+
+
+    <article id="article-4">
+      <h2>Article 4 – Non-Profit Nature and Purposes</h2>
+
+      <p>
+        The Association is a non-profit organization and pursues civic,
+        solidarity-based and socially beneficial purposes.
+      </p>
+
+      <p>
+        It promotes the advancement of teleradiology and, more broadly, remote
+        and digital radiology, with particular attention to the quality and safety
+        of healthcare, education and training, scientific research of particular
+        social interest, dissemination of knowledge, professional and scientific
+        collaboration, responsible innovation, ethics, clinical governance, and
+        the protection of the interests of patients and society.
+      </p>
+
+      <p>
+        The Association provides an independent forum for the study and discussion
+        of the clinical, scientific, technological, educational, ethical,
+        organizational and regulatory aspects of teleradiology.
+      </p>
+
+      <p>
+        The Association does not pursue the economic, trade-union or corporate
+        protection of the professional interests of its members.
+      </p>
+    </article>
+
+
+    <article id="article-5">
+      <h2>Article 5 – Activities of General Interest</h2>
+
+      <p>
+        For the pursuit of its purposes, the Association carries out, exclusively
+        or primarily, one or more activities of general interest pursuant to
+        Article 5, paragraph 1, of Legislative Decree No. 117 of 3 July 2017,
+        with particular reference, insofar as they are actually carried out, to
+        the following:
+      </p>
+
+      <ul>
+        <li>
+          letter d): education, instruction and vocational training, as well as
+          cultural activities of social interest with an educational purpose;
+        </li>
+
+        <li>
+          letter g): university and postgraduate education;
+        </li>
+
+        <li>
+          letter h): scientific research of particular social interest;
+        </li>
+
+        <li>
+          letter i): organization and management of cultural, artistic or
+          recreational activities of social interest, including publishing
+          activities aimed at promoting and disseminating the culture and
+          responsible practice of teleradiology.
+        </li>
+      </ul>
+
+      <p>
+        These activities are carried out for purposes of general interest, with
+        particular regard to improving the quality, safety, appropriateness and
+        effectiveness of healthcare, protecting patients, developing and
+        disseminating scientific knowledge, and improving healthcare services
+        and public health.
+      </p>
+    </article>
+
+
+    <article id="article-6">
+      <h2>Article 6 – Other Activities</h2>
+
+      <p>
+        The Association may carry out activities other than activities of general
+        interest, provided that such activities are secondary and instrumental
+        to the latter, within the limits and according to the criteria established
+        by applicable legislation. The identification of such other activities
+        shall be entrusted to the Board of Directors.
+      </p>
+    </article>
+
+
+    <article id="article-7">
+      <h2>Article 7 – Fundraising</h2>
+
+      <p>
+        The Association may carry out fundraising activities, including on an
+        organized and continuous basis, in compliance with the principles of
+        truthfulness, transparency and fairness and with applicable legislation.
+      </p>
+    </article>
+
+
+    <article id="article-8">
+      <h2>Article 8 – Members</h2>
+
+      <p>
+        Natural persons who share the purposes of the Association and undertake
+        to comply with its Statute, regulations and resolutions of the Association’s
+        governing bodies may become members.
+      </p>
+
+      <p>
+        Third Sector Entities or other non-profit organizations that share the
+        purposes of the Association may also be admitted, where compatible with
+        applicable legislation and according to criteria established by the
+        Board of Directors.
+      </p>
+
+      <p>
+        The number of members is unlimited. Membership is for an indefinite period,
+        without prejudice to the right of withdrawal.
+      </p>
+    </article>
+
+
+    <article id="article-9">
+      <h2>Article 9 – Categories of Members</h2>
+
+      <p>
+        The Association may establish, through regulations approved by the
+        General Assembly, descriptive categories of members according to their
+        professional, scientific, educational or honorary profile.
+      </p>
+
+      <p>
+        Such categories may not result in discrimination incompatible with the
+        principle of democratic participation, nor may they confer multiple voting
+        rights or financial privileges contrary to the law. The status of founding
+        member is of historical significance and does not, in itself, confer any
+        additional administrative or financial rights compared with other members.
+      </p>
+    </article>
+
+
+    <article id="article-10">
+      <h2>Article 10 – Admission of Members</h2>
+
+      <p>
+        Applications for membership shall be submitted according to the procedures
+        established by the Board of Directors and shall imply acceptance of this
+        Statute.
+      </p>
+
+      <p>
+        Admission shall be decided by the Board of Directors according to
+        non-discriminatory criteria consistent with the purposes pursued and
+        the activities of general interest carried out. The decision shall be
+        communicated to the applicant and entered in the register of members.
+      </p>
+
+      <p>
+        Any rejection must be justified. Within sixty days of receiving notification,
+        the applicant may request that the General Assembly decide upon the
+        application at its first available meeting.
+      </p>
+    </article>
+
+
+    <article id="article-11">
+      <h2>Article 11 – Rights and Duties of Members</h2>
+
+      <p>
+        Members have the right to participate in the life of the Association,
+        to be informed about its activities, to inspect the Association’s records
+        in accordance with the procedures laid down in this Statute, to participate
+        in the General Assembly and, where the requirements established by law
+        and by this Statute are met, to vote and to be elected to positions within
+        the Association.
+      </p>
+
+      <p>
+        Members are required to comply with the Statute, regulations and resolutions
+        of the Association’s governing bodies, to behave consistently with the
+        purposes of the Association, and to pay any annual membership fee.
+      </p>
+
+      <p>
+        Membership fees are personal, non-transferable and non-revaluable.
+      </p>
+    </article>
+
+
+    <article id="article-12">
+      <h2>Article 12 – Loss of Membership</h2>
+
+      <p>
+        Membership is lost through withdrawal, death, dissolution of a member
+        organization, persistent non-payment of fees, or exclusion for serious
+        reasons.
+      </p>
+
+      <p>
+        Exclusion shall be decided by the Board of Directors after the allegations
+        have been formally communicated to the person concerned and they have been
+        given the opportunity to submit observations. An appeal against the decision
+        may be submitted to the General Assembly within sixty days of notification.
+      </p>
+    </article>
+
+
+    <article id="article-13">
+      <h2>Article 13 – Governing Bodies of the Association</h2>
+
+      <p>The governing bodies of the Association are:</p>
+
+      <ul>
+        <li>the General Assembly of Members;</li>
+        <li>the Board of Directors;</li>
+        <li>the President;</li>
+        <li>the Supervisory Body, where required by law or otherwise established;</li>
+        <li>
+          the person or body responsible for statutory auditing, where required
+          by law or appointed.
+        </li>
+      </ul>
+
+      <p>
+        Positions within the Association shall be held in accordance with the law
+        and with this Statute.
+      </p>
+    </article>
+
+
+    <article id="article-14">
+      <h2>Article 14 – General Assembly – Composition and Powers</h2>
+
+      <p>
+        The General Assembly is composed of members entitled to vote.
+      </p>
+
+      <p>
+        In addition to the powers mandatorily assigned to it by law, the General
+        Assembly shall:
+      </p>
+
+      <ul>
+        <li>appoint and remove members of the Association’s governing bodies;</li>
+        <li>approve the financial statements;</li>
+        <li>decide on the liability of members of the Association’s governing bodies;</li>
+        <li>approve amendments to the Statute;</li>
+        <li>approve any regulations falling within its competence;</li>
+        <li>decide on the dissolution, transformation, merger or demerger of the Association;</li>
+        <li>decide on appeals concerning admission or exclusion where provided for;</li>
+        <li>decide on any other matters assigned to it by law or by this Statute.</li>
+      </ul>
+    </article>
+
+
+    <article id="article-15">
+      <h2>Article 15 – Convening of the General Assembly</h2>
+
+      <p>
+        The General Assembly shall be convened by the President pursuant to a
+        resolution of the Board of Directors at least once a year for the approval
+        of the financial statements and whenever the Board of Directors considers
+        it necessary.
+      </p>
+
+      <p>
+        It must also be convened when a reasoned request is submitted by at least
+        one tenth of the members entitled to vote; if the Board of Directors fails
+        to act, the meeting may be ordered by the competent authority in the cases
+        and according to the procedures provided for by law.
+      </p>
+
+      <p>
+        Notice of the meeting shall be given by written communication, including
+        electronic communication, sent to the address recorded in the register
+        of members at least eight days before the meeting. The notice shall specify
+        the date, time, place or remote participation method, agenda and, where
+        applicable, the date and details of the second call.
+      </p>
+    </article>
+
+
+    <article id="article-16">
+      <h2>Article 16 – Voting Rights, Proxies and Resolutions of the General Assembly</h2>
+
+      <p>
+        Each member who has been entered in the register of members for at least
+        three months shall be entitled to one vote, unless otherwise provided by
+        mandatory law. Each member may be represented by another member through
+        a written proxy within the limits established by the Third Sector Code.
+      </p>
+
+      <p>
+        Unless otherwise provided by law or by this Statute, the Ordinary General
+        Assembly shall be validly constituted on first call when half plus one of
+        those entitled to vote are present and, on second call, regardless of the
+        number of members present. Resolutions shall be adopted by a majority of
+        votes cast.
+      </p>
+
+      <p>
+        For amendments to the Statute, unless otherwise mandatorily provided by
+        law, the General Assembly shall decide with the presence of at least three
+        quarters of the members entitled to vote and with the favourable vote of
+        a majority of those present.
+      </p>
+
+      <p>
+        For resolutions concerning dissolution of the Association and transfer
+        of its assets, the favourable vote of at least three quarters of all
+        members shall be required, unless otherwise mandatorily provided by law.
+      </p>
+    </article>
+
+
+    <article id="article-17">
+      <h2>Article 17 – General Meetings by Means of Telecommunication</h2>
+
+      <p>
+        Meetings of the General Assembly may also be held by means of
+        telecommunication, either entirely remotely or in hybrid form, provided
+        that it is possible to verify the identity of participants, their entitlement
+        to participate, their effective participation in discussions and the
+        exercise of voting rights, and to properly record the proceedings in the
+        minutes.
+      </p>
+
+      <p>
+        The technical arrangements shall be specified in the notice convening the
+        meeting or in specific regulations.
+      </p>
+    </article>
+
+
+    <article id="article-18">
+      <h2>Article 18 – Board of Directors</h2>
+
+      <p>
+        The Association shall be administered by a Board of Directors composed
+        of seven members.
+      </p>
+
+      <p>
+        Without prejudice to the provisions concerning the Founding Board of
+        Directors, the directors of subsequent Boards of Directors shall be
+        elected by the General Assembly exclusively from among members of the
+        Association who are entitled to vote.
+      </p>
+
+      <p>
+        Boards of Directors subsequent to the Founding Board shall remain in office
+        for three years and their members may be re-elected.
+      </p>
+
+      <p>
+        At the time of establishment of the Association, the three founding members,
+        meeting as the Constituent Assembly, shall freely appoint the seven members
+        of the first Board of Directors, known as the “Founding Board of Directors”
+        or “Founding Board”. The selection of its members shall be the exclusive
+        responsibility of the three founding members and shall not be subject to
+        election by the General Assembly of Members.
+      </p>
+
+      <p>
+        At the time of their appointment, the members of the Founding Board shall
+        meet the requirements established by applicable legislation. For the
+        purposes of compliance with Article 26 of Legislative Decree No. 117 of
+        3 July 2017, at least the majority of the members of the Founding Board
+        must be selected from among natural persons who are members of the
+        Association or persons designated by member legal entities. Accordingly,
+        persons selected by the founders may be admitted as members of the
+        Association before or at the same time as their appointment.
+      </p>
+    </article>
+
+
+    <article id="article-19">
+      <h2>Article 19 – Powers of the Board of Directors</h2>
+
+      <p>
+        The Board of Directors shall perform all acts of ordinary and extraordinary
+        administration that are not reserved by law or by this Statute to the
+        General Assembly.
+      </p>
+
+      <p>
+        In particular, it shall implement resolutions of the General Assembly;
+        prepare the financial statements; decide on applications for membership
+        and exclusions; determine membership fees; establish commissions,
+        scientific committees and working groups; approve programmes and activities;
+        oversee RUNTS-related compliance requirements; appoint directors,
+        coordinators, consultants and collaborators; decide on other activities
+        and fundraising; and adopt any measures necessary for the pursuit of the
+        purposes of the Association.
+      </p>
+    </article>
+
+
+    <article id="article-20">
+      <h2>Article 20 – Meetings and Resolutions of the Board of Directors</h2>
+
+      <p>
+        The Board of Directors shall be convened by the President whenever they
+        consider it necessary or when requested by at least one third of the directors.
+      </p>
+
+      <p>
+        Meetings may be held in person, by means of telecommunication or in hybrid
+        form, provided that identification, participation and the ability to
+        contribute to discussions are guaranteed.
+      </p>
+
+      <p>
+        The Board shall be validly constituted when a majority of the members in
+        office are present and shall adopt resolutions by a majority of those
+        present. In the event of a tie, the President shall have the casting vote,
+        unless otherwise mandatorily provided.
+      </p>
+    </article>
+
+
+    <article id="article-21">
+      <h2>Article 21 – President, Vice-President, Secretary and Treasurer</h2>
+
+      <p>
+        The President is the legal representative of the Association in dealings
+        with third parties and in legal proceedings, oversees the implementation
+        of resolutions, and chairs the General Assembly and the Board of Directors.
+      </p>
+
+      <p>
+        At its first meeting following the election, the Board of Directors shall
+        elect from among its members the President, one or more Vice-Presidents,
+        the Secretary and the Treasurer, unless the General Assembly has directly
+        elected the President in accordance with any applicable electoral regulations.
+      </p>
+
+      <p>
+        The Vice-President shall replace the President in the event of absence
+        or impediment. The Secretary shall be responsible for minutes and the
+        Association’s documentation. The Treasurer shall oversee the administrative
+        and accounting management, without prejudice to the collective powers
+        of the Board of Directors.
+      </p>
+    </article>
+
+
+    <article id="article-22">
+      <h2>Article 22 – Committees and Scientific Structures</h2>
+
+      <p>
+        The Board of Directors may establish scientific committees, commissions,
+        working groups, thematic or geographical sections and other advisory or
+        operational bodies, determining their composition, duration and functions.
+      </p>
+
+      <p>
+        Such bodies shall not replace the governing bodies of the Association and
+        shall operate under the responsibility and in accordance with the directions
+        of the Board of Directors.
+      </p>
+    </article>
+
+
+    <article id="article-23">
+      <h2>Article 23 – Supervisory Body and Statutory Audit</h2>
+
+      <p>
+        In the cases provided for by law, the General Assembly shall appoint a
+        Supervisory Body, which may consist of a single individual, possessing
+        the qualifications and performing the functions established by the
+        Third Sector Code.
+      </p>
+
+      <p>
+        Where required by law, or where considered appropriate, the person or
+        body responsible for the statutory audit of the accounts shall be appointed.
+      </p>
+    </article>
+
+
+    <article id="article-24">
+      <h2>Article 24 – Assets, Income and Prohibition on Distribution</h2>
+
+      <p>
+        The assets of the Association, including any revenues, income, proceeds
+        and receipts of any kind, shall be used for the performance of the activities
+        provided for in this Statute and exclusively for the pursuit of civic,
+        solidarity-based and socially beneficial purposes.
+      </p>
+
+      <p>
+        The distribution, including indirect distribution, of profits and operating
+        surpluses, funds and reserves of any kind to founders, members, employees
+        and collaborators, directors and other members of the governing bodies is
+        prohibited, including in the event of withdrawal or any other form of
+        individual termination of membership, except where otherwise provided by law.
+      </p>
+
+      <p>
+        Income may derive, among other sources, from membership fees, public and
+        private contributions, donations, bequests, fundraising, sponsorships
+        compatible with the purposes of the Association and with its scientific
+        independence, consideration received for permitted activities, and proceeds
+        from activities of general interest and from other activities within the
+        limits established by law.
+      </p>
+    </article>
+
+
+    <article id="article-25">
+      <h2>Article 25 – Financial Year, Financial Statements and Association Records</h2>
+
+      <p>
+        The financial year shall run from 1 January to 31 December of each year.
+      </p>
+
+      <p>
+        The Board of Directors shall prepare the annual financial statements in
+        the forms prescribed by the Third Sector Code and submit them to the
+        General Assembly for approval within the statutory deadlines. Where the
+        relevant requirements are met, the social report and any other documents
+        required by law shall be prepared and filed.
+      </p>
+
+      <p>
+        The Association shall maintain the mandatory Association records required
+        by law, including the register of members, minutes of the General Assembly,
+        minutes of the Board of Directors and, where established, the records of
+        the other governing bodies.
+      </p>
+    </article>
+
+
+    <article id="article-26">
+      <h2>Article 26 – Right to Inspect Association Records</h2>
+
+      <p>
+        Members have the right to inspect the Association’s records upon written
+        request to the Board of Directors. Inspection shall be permitted within
+        a reasonable period and in a manner that protects personal data and
+        confidential information relating to third parties and does not obstruct
+        the proper functioning of the Association.
+      </p>
+
+      <p>
+        The Board of Directors may regulate the practical arrangements for exercising
+        this right by means of specific regulations, without unreasonably restricting
+        its effective exercise.
+      </p>
+    </article>
+
+
+    <article id="article-27">
+      <h2>Article 27 – Volunteers, Employees and Collaborators</h2>
+
+      <p>
+        The Association may make use of volunteers and, within the limits permitted
+        by applicable legislation, employees, self-employed workers and collaborators
+        where necessary for carrying out activities of general interest and pursuing
+        the purposes established in this Statute.
+      </p>
+
+      <p>
+        Volunteers shall be entered in the appropriate registers where required
+        and shall be insured in the cases and according to the procedures established
+        by law.
+      </p>
+    </article>
+
+
+    <article id="article-28">
+      <h2>Article 28 – Regulations, Code of Ethics and Conflicts of Interest</h2>
+
+      <p>
+        The General Assembly and the Board of Directors, within their respective
+        areas of competence, may adopt regulations implementing this Statute.
+      </p>
+
+      <p>
+        The Association may adopt a code of ethics and policies relating to
+        scientific independence, transparency, sponsorship, declaration and
+        management of conflicts of interest, data protection and scientific integrity.
+      </p>
+    </article>
+
+
+    <article id="article-29">
+      <h2>Article 29 – Dissolution and Transfer of Assets</h2>
+
+      <p>
+        The dissolution of the Association shall be decided by the General Assembly
+        with the majorities required by law.
+      </p>
+
+      <p>
+        In the event of termination or dissolution, the remaining assets shall
+        be transferred, subject to the favourable opinion of the competent RUNTS
+        Office where required, and unless a different destination is imposed by law,
+        to other Third Sector Entities identified by the General Assembly or,
+        failing this, to the Fondazione Italia Sociale, in accordance with
+        applicable legislation.
+      </p>
+    </article>
+
+
+    <article id="article-30">
+      <h2>Article 30 – Final and Transitional Provisions</h2>
+
+      <p>
+        For any matter not expressly provided for in this Statute, the provisions
+        of the Italian Civil Code, Legislative Decree No. 117 of 3 July 2017 and
+        all other applicable legislation shall apply.
+      </p>
+
+      <p>
+        The provisions of this Statute that presuppose registration with RUNTS
+        shall become effective from the date of such registration; until then,
+        they shall apply insofar as they are compatible with the Association’s
+        status as an unrecognized association.
+      </p>
+
+      <p>
+        The Founding Board of Directors, composed of the seven members freely
+        selected and appointed by the three founding members pursuant to Article 18,
+        shall remain in office for two years from the date of appointment. Upon
+        expiry of this term, the General Assembly of Members shall elect, from among
+        the members of the Association, the ordinary Board of Directors, whose term
+        of office shall be three years.
+      </p>
+
+      <p>
+        By way of example, the Association may organize congresses, courses,
+        webinars, seminars, study groups, educational programmes and scientific
+        initiatives; promote, support or carry out research projects of particular
+        social interest; develop recommendations, consensus documents, standards,
+        position papers and educational materials; promote safety and quality in
+        teleradiology; foster collaboration among professionals, scientific
+        institutions, universities, healthcare organizations, patients and other
+        stakeholders; and disseminate scientific knowledge through publications,
+        websites and other means of communication.
+      </p>
+    </article>
+
+  </section>
+
+
+  <div class="back-link">
+    <a href="index.html">← Back to ESTeR home</a>
+  </div>
+
+</main>
+
+
+<footer>
+  <div>
+    European Society of Teleradiology – ESTeR
+  </div>
+
+  <div style="margin-top:8px;">
+    <a href="mailto:info@society-teleradiology.org">
+      info@society-teleradiology.org
+    </a>
+  </div>
+</footer>
+
+</body>
+</html>
