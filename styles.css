@@ -313,3 +313,48 @@ li {
     grid-template-columns: 1fr;
   }
 }
+
+/* Compact Founding Board section */
+.board-hero {
+  padding: 42px 0 48px;
+}
+
+.board-hero h1 {
+  margin: 5px 0 12px;
+}
+
+.board-intro {
+  margin-bottom: 25px;
+}
+
+.board-grid {
+  gap: 14px;
+}
+
+.board-card {
+  padding: 18px 12px;
+}
+
+.board-card h2 {
+  margin: 7px 0 5px;
+}
+
+.board-card a {
+  margin-top: 8px;
+}
+
+/* Centre the three cards in the second desktop row */
+@media (min-width: 901px) {
+  .board-card:nth-child(5) {
+    grid-column: 1 / 2;
+    transform: translateX(calc(50% + 7px));
+  }
+
+  .board-card:nth-child(6) {
+    transform: translateX(calc(50% + 7px));
+  }
+
+  .board-card:nth-child(7) {
+    transform: translateX(calc(50% + 7px));
+  }
+}
