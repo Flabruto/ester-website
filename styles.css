@@ -358,3 +358,11 @@ li {
     transform: translateX(calc(50% + 7px));
   }
 }
+.board-card img.flag {
+  width: 40px;
+  height: 28px;
+  object-fit: cover;
+  border-radius: 3px;
+  display: block;
+  margin: 0 auto 10px;
+}
