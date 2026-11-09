@@ -366,3 +366,90 @@ li {
   display: block;
   margin: 0 auto 10px;
 }
+
+/* About ESTeR and Founding Board layout */
+
+#about .about-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 3fr) minmax(230px, 1fr);
+  gap: 40px;
+  align-items: start;
+}
+
+#about .about-main {
+  min-width: 0;
+}
+
+/* Compact Founding Board sidebar */
+
+#about .board-sidebar {
+  padding: 20px;
+  border-radius: 12px;
+  background: #f5f7fa;
+  color: #243447;
+}
+
+#about .board-sidebar h2 {
+  font-size: 1.25rem;
+  margin: 0 0 18px;
+}
+
+#about .board-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+#about .board-member {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+#about .board-member img {
+  width: 26px;
+  height: auto;
+  flex-shrink: 0;
+  margin-top: 3px;
+}
+
+#about .board-member div {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  min-width: 0;
+}
+
+#about .board-member strong {
+  font-size: 0.85rem;
+  line-height: 1.3;
+}
+
+#about .board-member span {
+  font-size: 0.75rem;
+  color: #666;
+}
+
+#about .board-member a {
+  font-size: 0.75rem;
+  color: #1762a0;
+  text-decoration: none;
+}
+
+#about .board-member a:hover {
+  text-decoration: underline;
+}
+
+/* Mobile layout */
+
+@media (max-width: 768px) {
+  #about .about-layout {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  #about .board-sidebar {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
