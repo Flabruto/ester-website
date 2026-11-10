@@ -530,3 +530,8 @@ li {
     gap: 24px;
   }
 }
+/* Prevent fixed header from covering section titles */
+html {
+  scroll-padding-top: 90px;
+  scroll-behavior: smooth;
+}
